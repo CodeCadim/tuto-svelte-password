@@ -1,0 +1,13 @@
+{
+  "name": "tuto-svelte-password",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node esbuild.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.18.17",
+    "esbuild-svelte": "^0.7.4",
+    "svelte": "^4.1.1"
+  }
+}
