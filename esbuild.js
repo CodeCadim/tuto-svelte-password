@@ -14,6 +14,7 @@ let ctx = await esbuild.context({
 	banner: {
 		js: 'new EventSource("/esbuild").addEventListener("change",()=>location.reload())',
 	},
+	logLevel: 'info',
 });
 
 await ctx.watch();
